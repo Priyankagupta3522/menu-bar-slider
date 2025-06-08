@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0%;
+       
+        margin: 1em;
+    }
+
+    #header{
+        text-align: center;
+        margin: auto;
+    
+       
+    }
+
+#logo{
+    height: 300px;
+    width: 300px;
+    margin: 0%;
+    
+
+
+}
+.container{
+    margin: 0%;
+    padding: 50px 100px;
+    text-align: center;
+   
+}
+#menu-bar{
+    text-align: center;
+    background-color: orangered;
+    width: 100%;
+   
+}
+#menu-bar li{
+    display: inline-block;
+    padding: 20px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    
+}
+
+#demo h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    margin: auto;
+}
+p{  
+    text-wrap:inherit ;
+    font-size: 20px;
+    font-style: italic;
+    display:grid
+}
+
+#image{
+    height: 600px;
+    width: 100%;
+    
+}
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+</style>
+<body>
+    <div id=header>
+        <img src="https://png.pngtree.com/png-clipart/20200722/original/pngtree-vintage-burger-logo-designs-inspiration-vector-illustration-png-image_5009074.jpg" id="logo">
+    </div>
+    <div class="container">
+    <nav id="menu-bar" class="sticky">
+        <li>Home</li>
+        <li>About us</li>
+        <li> contact us</li>
+        <li>services</li>
+        <li>Reviews</li>
+
+    </nav>
+    </div>
+    <div id="demo">
+        <h1>About us</h1>
+        <img id="image"  src="https://tse4.mm.bing.net/th/id/OIP.QXOD6lAc1ZUlEv0pDbw7CgHaHa?rs=1&pid=ImgDetMain">
+        <p>There has been a significant change in the way people make vegetarian burgers from when they were first prepared as unsatisfactory snacks. This has necessitated the change into sumptuous and filling dishes that even people who eat meat can appreciate. If you are a vegetarian or just thinking about venturing into healthier eating options, then this blog post will provide you with an ultimate guideline on how to make your vegetarian burger recipe with no meat involved! This article outlines the step-by-step process on how you can prepare your own delicious vegetarian burger using inexpensive materials!
+        
+Method=>
+Take the mashed potatoes in a bowl, add the boiled vegetables, corn flour, salt and pepper powder.
+Mark as complete
+Make a flat patty from this mix and roll it in bread crumbs.
+Mark as complete
+Heat the pan in the meanwhile and roast the patties on low flame with a little oil till they are dark brown.
+Mark as complete
+After the patties are ready, cut the buns into two lateral halves and roast them a little to make them soft.
+Mark as complete
+Take the lower half of the bun and put a slice of tomato, onion slice, patty, lettuce leaf, cheese slice, tomato slice and onion slice one after the other on it.
+Mark as complete
+Put mayonnaise on it and then the top half of the bun.
+Mark as complete
+This arrangement can be customized with more or less vegetables according to taste.
+Mark as complete
+Serve with sauce and cold drink/ice tea or juice.
+Mark as complete
+
+
+        </p>
+    </div>
+    <script>
+ window.addEventListener('scroll',function(){
+    let navbar=document.getElementById("menu-bar");
+    if(window.pageYOffset>=304){
+        navbar.classList.add('sticky')
+    }
+    
+    else{
+navbar.classList.remove('sticky');
+    }
+
+    
+ });
+    </script>
+    
+</body>
+</html>
